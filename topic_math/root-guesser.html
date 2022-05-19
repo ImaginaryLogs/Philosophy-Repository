@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  
+  <title>Homepage</title>
+  <style>
+    @import '/design.css';
+    #guessNum {
+      justify-content: center;
+      box-sizing: border-box;
+    }
+
+    .flex_container{
+      display: flex;
+      justify-content: center;
+    }
+
+    .flex_container > div {
+      background-color: #f1f1f1;
+      margin: 10px;
+      padding: 20px;
+      font-size: 1.5rem;
+      justify-content: center;
+    } 
+
+    input[type="submit"]{border-radius: 5px;}
+
+    input[type="submit"]:hover, button:hover{
+      background-color: #d99bfd;
+      }
+  </style>
+</head>
+
+<body>
+  <!--navbar-->
+  <nav class="navi">
+    <li><a href="\home.html">Home</a></li>
+    <li><a href="\about.html">About</a></li>
+    <li><li>
+  </nav>
+
+  <br />
+  
+  <div class="pg_content">
+    <div class="flex_container">
+      <div>
+        <p id="num"></p>
+        <button onclick="randomize()" id="guessButton" >random square</button>
+      </div>
+      <div>
+        <form id="guessNum">
+          <label for="guessnumber">Guess the Number:</label>
+          <br />
+          <input type="text" />
+          <input type="submit" value="Submit"></input>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+
+<script src="root-algorithm.js"></script>
+</html>
