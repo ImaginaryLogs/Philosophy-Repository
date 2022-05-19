@@ -5,6 +5,7 @@ html {
     background-color: #caceff;
 }
 
+
 /* || navigation */
 
 .navi {
@@ -28,32 +29,67 @@ html {
     float: left;
 }
 
-.navi li:hover:not(.active) { background-color: #e28813dc; }
+.navi li:hover:not(.active) {
+    background-color: #e28813dc;
+}
 
-.navi a{ text-decoration: none; }
+.navi a {
+    text-decoration: none;
+}
 
-.navi a:hover { text-decoration: underline; color: #7861ca; }
+.navi a:hover {
+    text-decoration: underline;
+    color: #7861ca;
+}
+
 
 /* || button */
-button{ border-radius: 5px; opacity: 0.8; }
-button:hover{ opacity: 1; }
-button:active{ background-color: #7861ca; color: aliceblue;}
 
-.active { background-color: aliceblue; }
+button {
+    border-radius: 5px;
+    opacity: 0.8;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+button:active {
+    background-color: #7861ca;
+    color: aliceblue;
+}
+
+.active {
+    background-color: aliceblue;
+}
+
 
 /* || typography */
 
-h1 { font-size: 2rem; }
-h2 { font-size: 1.75rem; }
-h3 { font-size: 1.5rem; }
+h1 {
+    font-size: 2rem;
+}
 
-p a { text-decoration: none; }
+h2 {
+    font-size: 1.75rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p a {
+    text-decoration: none;
+}
+
 p a:hover {
     color: #7861ca;
     text-decoration: underline;
 }
 
+
 /* || Classes */
+
 .background {
     background-color: #caceff;
     margin: 0px;
